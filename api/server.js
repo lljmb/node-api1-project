@@ -85,7 +85,7 @@ server.put('/api/users/:id', (req, res) => {
 
 // catch all
 server.use('*', (req, res) => {
-    res.status(404).json({message: '404 not found'})
+    res.status(404).json({message: 'hi guise'})
 })
 
 module.exports = server // EXPORT YOUR SERVER instead of {}
